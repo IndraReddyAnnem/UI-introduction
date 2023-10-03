@@ -1,0 +1,293 @@
+==========================================================================UI TECHNOLOGIES=================================================================================================
+
+                                                                      html5, CSS3, Javascript      
+
+                                                            css3 frameworks:- bootstrap4, thailwind
+
+                                                           Javascript frameworks :- jquery, React js
+                                                          ---------------------------------------------
+
+who developed html
+==================
+html  developed by "tim berners lee"
+
+why html was developed?
+------------------------
+To create web pages/website.
+
+what is a website?
+---------------------
+Website is nothing but collection of webpages which contains information.
+
+What is the purpose of webpage or website?
+--------------------------------------------
+To share the information across the world
+
+how to share information across the world?
+----------------------------------------------
+To share information across the world we need to purchase two things in www.
+
+i) domain name (application name)
+
+e.g:
+----
+http://www.sample.com
+
+ii) hosting space (which contains our application files in the server)
+
+who developed www?
+-------------------
+Tim Berners Lee developed WWW. WWW stands for "world wide web".
+
+
+what is html?
+=============
+html is a markup language which is used to provide proper internal structure for our webpage.
+
+what is the full form of html?
+--------------------------------
+hypertext markup language 
+
+
+<> opening tag/starting tag
+</> closing tag/ending tag
+
+what is hypertext?
+--------------------
+hypertext means structured data and we can provide hyperlinks to our data.By  using hyperlinks we can navigate from one page to another page in the same application.
+
+what is the syntax of html?
+---------------------------
+All the pre-defined keywords related to html we must write in the markup tags (angle brackets <opeining tag></closing tag>)
+
+syntax:
+---------
+<tagname>content</tagname>
+
+e.g:
+----
+<strong>Ramesh</strong>
+
+how to save html files?
+========================
+we must save html files with ".html" extension.
+
+What is the basic code a html file should contain?
+=======================================================
+Below code html file should contain
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic html tags</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Roadster">
+</head>
+<body>
+
+</body>
+</html>
+
+Note:
+-----
+i) <!DOCTYPE html> is the instruction for the browser.It instructs the browser as "html version 5"
+
+ii) <html></html> html tag is the root element for the entire webpage.It has two child elements
+
+i) <head></body>
+ii) <body></body>
+
+What is the purpose of "head" tag?
+-----------------------------------
+i) we can specify a title for our webpage.BY using title we can recognize our webpage among all other web applications.
+
+e.g:
+------
+<title>Basic html tags</title>
+
+ii) For the sake of S.E.O(Search Engine Optimization) we need to use some keywords and description related to our webpage.That keywords and description we need to specify in the "meta" tags.We must write "meta" tags in "head" tag.
+
+iii) we need to specify "<meta chatset="UTF-8">.It will assign 8 bites maximum for every character when converting to binary language.
+
+iv) we can call external css and javascript files
+
+v) we can write internal css and internal javascript
+
+what is the purpose of "body" tag?
+-----------------------------------
+i) All the code related to "user interface" we must write in the "body" tag
+
+ii) we can call  external javascript files
+
+============================================================================================================================================================================================
+what is css?
+============
+css is a styling language which is used to give proper external stucture for our webpage.
+
+what is the full form of css?
+==================================
+cascading stylesheet
+
+what is cascading?
+==================
+cascading means combo of overriding and inheritance
+
+How many types of css do we have?
+=====================================
+we have 3 types of css
+
+i) inline css
+ii) internal css
+iii) external css
+
+i) inline css
+--------------
+If we write css in any particular html tag, then that css can be called as inline css
+
+inline css can override the common properties in internal and external css.Inline css can inherit the remaining properties from the internal and external css
+
+eg:
+---
+<p style="color:red;">content should be here </p>
+
+ii) internal css
+------------------
+If we write css in "style" tag,then that css can be called as internal css
+
+internal css can override the common properties in external css and can inherit the remaining properties from external css
+
+e.g:
+----
+<head>
+	<style>
+		p{
+		color:red;
+		}
+	</style>
+</head>
+<body>
+	<p>content should be here </p>
+	<p>content should be here </p>
+	<p>content should be here </p>
+</body>
+iii) external css
+--------------------
+If we write css in a separate page,then that css can be called as external css.We need to save the external css file with the extension ".css".
+
+External css will apply as you write if there are no common properties in internal and inline css.
+
+eg:
+---
+<link rel="stylesheet" href="path/of/the/filename.css">
+
+
+internal css
+===============
+p{
+background-color:brown;
+}
+
+
+<p style="background-color:skyblue;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+
+external css
+===============
+p{
+color:white;
+background-color:orange;
+font-style:italic;
+}
+2x+2y=2(x+y)
+
+
+============================================================================================================================================================================================
+                                                                             ::CSS FRAMEWORKS:;
+what  is the purpose of CSS framework?
+---------------------------------
+to make responsive web design & to standardize the process of web development by providing a set of pre-designed styles, layout tools, and reusable components.
+they are some key purposes and benefits of css frameworks
+Consistency,Responsive Design, flexible UI{customization}, Code Reusability
+
+
+what is responsive web designing?
+---------------------------------
+MediaQuery's:-depends upon the devices(smartphones,tablets, low to high resolution computers) size and browser's size our webpage alignment should adjust automatically.
+This type of designing can be called as responsive web designing.
+
+what is bootstrap?
+===================
+bootstrap is a css framework developed by twitter company.That's why it can be called as "twitter bootstrap".
+
+what is tailwind ?
+-----------------
+Tailwind CSS was developed by Adam Wathan & it works with the className, every CSS style you put in will be a className
+we can just create a [] and give a dynamic valueto ot = []square bracket notaion
+
+
+============================================================================================================================================================================================
+
+JAVASCRIPT
+============
+Brenden Eich developed javascript
+
+what is javascript ?
+====================
+
+javascript is a client side scripting language developed by Brenden Eich, ES6 is newer version of Javascript
+javascript is a scripting language and thay use interpretors or engine to convert the Binary code into source code {c=a=b to 0101100}
+javascript is a synchronous single threaded language
+synchronous single threaded means- only execute one command at a time in a specific order
+
+js interpretors or engines have different names from one brpwser to another browser
+1) js engine for Mozila fire fox is spider monkey
+2) js engine for GoogleChrome  is v8 engine
+3) js engine for edge is chakra
+
+
+What are the advantages of javascript ?
+======================================
+
+1) we can store our data temporarily in user's browser by using cookies, local storage, session storage
+cookies:-
+--------
+if we store our data in cookies, when ever the user deletes the cookies or cache we will loose our data. if the expression time is completed or we don't set any expression timewe 
+lose our data.
+local storage:-
+-------------
+ when ever the user deletes the cookies or cache we will loose our data and we need to set an expression time.
+session storage:-
+----------------
+When ever the user closes the browser we will loose our data.
+
+
+2)We can add dynamic behaviour or manipulate html code in our webpage
+By using javascript we can  capture the users action through events {ex: onclick, onmouse etc...} and we can call a method or function and in that functions we can generate html code and can manipulate the web page it is called as dynamic behaviour (dynamic html or dhtml and we call as dhtml programer or UI developer.)
+if we manipilate the html by using javascrpt it is called  D.O.M manipulation
+D.O.M = document object module;
+-------------------------------
+every element in html, javascript creates an object for it and that object structure is called D.O.M
+
+
+3) validation:-we can restrict the user not to perform the certain tasks.
+  ------------
+ex:- restricts the copy = ctrl+c ,,,  restricts the right click
+
+=========================================================================================================================================================
+                                                            ::JAVASCRIPT frameworks::
+                                                            ==========================
+what are the use of javascript frameworks?
+------------------------------------------
+JavaScript frameworks are collections of pre-written JavaScript code and libraries that provide a structured and standardized way to build web applications. 
+
+
+what is jquery?
+---------------
+jquery is a client side library developed by using javascript language & It was created by John Resig and released in 2006. 
+
+
+what is Reactjs?
+----------------
+Reactjs is a client side library developed by using javascript language & It was created byfacebook developers.
+
